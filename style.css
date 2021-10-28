@@ -1,0 +1,47 @@
+body {
+  background-color: #faeceb;
+}
+
+.title {
+  color: #545871;
+  margin: 15px auto;
+}
+
+.buttons {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.clear {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li:hover {
+  background: #F1CFCD;
+}
+
+.form-check {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="checkbox"]:checked ~ label {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.count {
+  text-align: center;
+  margin-left: px;
+  margin-top: 15px;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.form-check-input {
+  width: 90%;
+}
